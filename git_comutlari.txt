@@ -1,0 +1,33 @@
+1.)ls bulunduğun dizini listeler
+2.)cd "klasöradı" dosyaya girer
+3.)cd .. geri çıkar
+4.)mkdir "yeni klasör ismi" bulunduğun dizinde yeni bir klasör açar
+5.)touch "yenidosya.txt" belirli uzantılı dosya oluştmaya yarar
+6.)clear dizini komple siler
+7.)git init "klasör adı" dizinde adı verilen dosyayı oluşturup bir git repositorisi haline getirir. dosya adı yerine sadece . bulunduğu dizini git reposu yapar
+8.)git status bir reponu şuan ki durumunu gösterir
+9.)git add "dosya adı" yapılan değişikliği bir sonraki commit te kaydedilecekler arasına ekler 
+9a.)git rm "dosya adı" dosyayı commitden çıkarır
+10.)git log    git geçmişini gösterir içinde bulunduğu dizin için
+11.)git config --global user.email "yunusemrekirci@gamil.com" burda git e kim olduğumuzu tanıtıyoruz
+12.)git config --global user.name "kullanıcı adı" burdada olay aynı değişikliği yapanın kim olduğunu anlayabilmesinin başka bir yolu yok
+git commit -m "mesajım" burda da parantez içinde bir mesaj kaydedicem
+13.)git add . bütün dizini ekle
+
+
+
+dosya değişiklik yaptık 
+1.)git add ile dosyaları ekle 
+2.)git commit -m "mesajımızı yazdık"
+3.)git push gönder
+branch (ara yol) oluşturuken
+1. git branch xxx ile xxx arayolunu oluştur 
+2. git checkout xxx ile bu yola gir 
+3. git pull ile son değişikleri al 
+4. git push ile gönder
+dosya çekerken 
+1. git clone link şeklinde bulunduğun dizine klasör 
+2. çalış 
+3. git add ile değişikleri kamyona koy 
+4. git commit -m "mesaj" ile beraber kaydet 
+5. git push ile postala
